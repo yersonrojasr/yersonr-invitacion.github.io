@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación Baby Shower de Francesca</title>
+</head>
+<body>
+<style>
+body {
+    font-family: Delius;
+    margin: 0;
+    background-color: beige;   
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    background-image: url(./Fondo.PNG);
+    background-position: bottom left;    
+    background-repeat: no-repeat;       
+    background-size: 430px 300px;
+    background-attachment: fixed;
+}
+
+
+.container-countdown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#countdown > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#countdown span {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+}
+
+#countdown .texto {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+h2{
+    color: rgb(187, 181, 102);
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+h3{
+    font-size: 1rem;
+}
+
+.portada{
+    width: 600px;
+}
+
+.paleta{
+    display: inline-block;
+    gap: 10px;
+    width: 250px;
+}
+
+.info{
+  padding: 20px;
+}
+
+</style>
+
+    <img class="portada" src="./Olivia.PNG">
+    <h2>04 de octubre de 2025</h2>
+
+    <div class="container-countdown">
+        <div id="countdown">
+            <div>
+                <span class="dias"></span>
+                <div class="texto">Días</div>
+             </div>
+             <div>
+                <span class="horas"></span>
+                <div class="texto">Horas</div>
+            </div>
+            <div>
+                <span class="minutos"></span>
+                <div class="texto">Minutos</div>
+            </div>
+            <div>
+                <span class="segundos"></span>
+                <div class="texto">Segundos</div>
+            </div>
+
+        </div>
+    </div>
+    <div class="info">
+        <h2>Info del evento</h2>
+        <h3>11:00 am</h3>
+        <h3>Rancho Palma Tica, Damas</h3>
+        <a href="https://maps.app.goo.gl/2wXVXDp95ZBCp1rW8" target="_blank">Ver ubicación aquí</a>
+        <p><iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3935.2109512747306!2d-84.20692799999999!3d9.490373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOcKwMjknMjUuMyJOIDg0wrAxMicyNC45Ilc!5e0!3m2!1ses!2scr!4v1756936632181!5m2!1ses!2scr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"</p>
+    </div>
+
+    <div class="info">
+        <h2>Código de Vestimenta</h2>
+        <h3>Tonos pastel, blancos y beige</h3>
+        <img class="paleta" src="./Paleta.JPG">
+        <img class="paleta" src="./flores paleta.JPG"> 
+    </div>
+
+    <div class="info">
+        <h2>Guarde la fecha</h2>
+        <p>Para que no se olviden de la fecha, <br> darle click al botón y guardarla en su calendario</p>
+        <p>Esperamos que nos puedan acompañar</p>
+        <p>Te esperamos!</p>
+        <a href="./baby_shower_francesca.ics" download>
+
+        <button style="
+        background-color: #f8bee2; 
+        color: white; 
+        padding: 15px 32px; 
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+        border: none;
+        ">
+        📅 Agregar a mi calendario
+        </button>
+</a>
+    </div>
+
+    <div class="info">
+        <h2>Favor confirmar asistencia</h2>
+        <p>Para el descanso de los niños y disfrute de los padres,<br> este evento es sólo para adultos</p>
+        <p>Favor confirmar asistencia<br> antes del 25 de setiembre<br> De no confirmar se tomará como que no asistirá</p>
+        <a href="https://docs.google.com/forms/d/1ExreTOQw9hdM5Zy_TGbi5CcLCNwBnpdYNj90hBGuSqo/edit" target="_blank">
+
+        <button style="
+        background-color: #f8bee2; 
+        color: white; 
+        padding: 15px 32px; 
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+        border: none;
+        ">
+        Confirmar asistencia
+        </button>
+        </a>
+    </div>
+
+    <div class="info">
+        <h2>Lista de deseos</h2>
+        <p>Debido a que ya tenemos<br> muchos de los artículos necesarios,<br> esta lista es una sugerencia para que<br> todas las muestras de cariño sean aprovechadas</p>
+        <p>No es obligatorio  llevar algo de la lista</p>
+        
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeuffCGwG7TLleuEZc88TwPiaMggEQwaLbQQYk7UVm4sbLiMg/viewform?usp=dialog" target="_blank">
+        <button style="
+        background-color: #f8bee2; 
+        color: white; 
+        padding: 15px 32px; 
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+        border: none;
+        ">
+        Abrir lista de deseos
+        </button>
+        </a>
+    </div>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+
+<script src="script.js"></script>
+</body>
+</html>
+
